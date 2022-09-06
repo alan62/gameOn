@@ -1,0 +1,14 @@
+# gameOnconst firstElt = document.getElementById("first");
+const firstError = document.querySelector(".firstError");
+const lastElt = document.getElementById("last");
+const lastError = document.querySelector(".lastError");
+const emailElt = document.getElementById("email");
+const emailError = document.querySelector(".emailError");
+const birthdateElt = document.getElementById("birthdate");
+const birthError = document.querySelector(".birthError");
+const qtyElt = document.getElementById("quantity");
+const qtyError = document.querySelector(".qtyError");
+const cityElt = document.querySelector("input[type=radio]");
+const cityError = document.querySelector(".cityError");
+const conditionsElt = document.getElementById("checkbox1");
+const conditionsError = document.querySelector(".conditionsError");
