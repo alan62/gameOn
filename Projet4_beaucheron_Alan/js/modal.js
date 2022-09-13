@@ -207,5 +207,6 @@ function editNav() {
         form.style.display = 'none';
         successModal.style.display = 'flex';
         console.log(firstElt.value, lastElt.value, emailElt.value, birthdateElt.value, qtyElt.value);
+        form.reset();
     }
   }
