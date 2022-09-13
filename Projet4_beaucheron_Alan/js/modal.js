@@ -6,7 +6,7 @@ function editNav() {
       x.className = "topnav";
     }
   }
-  
+
   // DOM Elements
   const modalbg = document.querySelector(".bground");
   const modalBtn = document.querySelectorAll(".modal-btn");
@@ -38,7 +38,7 @@ function editNav() {
   
   // REGEX
   
-  const numbersValue = /[0-9]/;
+  const numbersValue = /^[0-9]{1,2}$/;
   
   // launch modal event
   modalBtn.forEach((btn) => btn.addEventListener("click", launchModal));
@@ -59,7 +59,6 @@ function editNav() {
     successModal.style.display = 'none';
   }
   document.querySelector("#btn-closed").addEventListener("click", closeModal);
-  
   
   // functions 
   
@@ -203,6 +202,7 @@ function editNav() {
     isFormValid.push(checkCity(cityElt));
     isFormValid.push(checkConditions(conditionsElt));
   
+    //on vérifie que tous les éléments sont valides dans le tableau isFormValid
     if (!isFormValid.includes(false)) {
         form.style.display = 'none';
         successModal.style.display = 'flex';

@@ -553,10 +553,17 @@ footer {
 
   .hero-text {
     width: 100%;
+    font-size: 0.6em;
   }
 
   .hero-content::after {
     content: unset;
+  }
+
+  .hero-headline {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 1.5;
   }
 
   .hero-content .btn-signup {
@@ -589,18 +596,17 @@ footer {
   .hero-content {
     width: 100%;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .hero-headline {
-    text-align: center;
-    font-size: 1em;
+    font-size: 1.7em;
     font-weight: bolder;
     margin-bottom: -30px;
   }
 
   .hero-text {
-    font-size: 0.65em;
+    font-size: 0.6em;
   }
 }
 
@@ -609,13 +615,12 @@ footer {
   .hero-content {
     width: 100%;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
   }
 
   .hero-headline {
     font-size: 2.5em;
     font-weight: bolder;
-    text-align: center;
     margin-bottom: -30px;
   }
 
